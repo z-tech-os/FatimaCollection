@@ -76,9 +76,11 @@ body.dark-mode {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+   font-display: swap;
 }
 
 body {
+   font-display: swap;
     margin: 0;
     background: var(--cream);
     color: var(--ink);
@@ -275,10 +277,11 @@ h3 {
     font-family: var(--serif);
     line-height: 1.1;
     margin: 0 0 18px;
+   font-display: swap;
 }
 
 h1 {
-    font-size: clamp(50px, 7vw, 86px);
+    font-size: clamp(45px, 7vw, 70px);
     letter-spacing: -2px;
 }
 
